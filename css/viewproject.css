@@ -1,0 +1,14 @@
+.skills{
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 2px solid #bbb;
+}
+.table th{
+    color:  #00851f;
+}
+.table td, .team, .teamdiv th{
+	text-align: center;
+}
+body{
+	padding-top: 70px;
+}

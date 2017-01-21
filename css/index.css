@@ -1,0 +1,74 @@
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    black;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:     black;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:     black;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:     black;
+}
+
+.login {
+    height: 450px;
+    width: 400px;
+    background: white;
+
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+
+    border: 2px;
+    border-radius: 10px;
+    text-align: left;
+   
+}
+.logo{
+    height: 200px;
+    width: 400px;
+    border: 2px;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+.input{
+    width: 95%;
+    margin-left: 2.5%;
+}
+.remember{
+    margin-left: 2.5%;
+}
+.submit{
+    width: 90%;
+    margin-top: 5%;
+    margin-left: 5%;
+    background-color: #00851f;
+    padding: 12px 15px;
+    border: 2px;
+    border-radius: 10px;
+    color: white;
+    outline: none;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    font-size: 120%;
+}
+.submit:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+input[type=text]:focus {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+body{
+    background-color: #e8ebef;
+    background-image: url("../images/bg.png");
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}

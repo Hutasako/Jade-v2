@@ -1,0 +1,15 @@
+body{
+	background-color: black;
+	 padding-top: 70px;
+}
+table td{
+	border-top: 1px solid #ddd
+}
+.table th{
+    color:  #00851f;
+}
+.skills{
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 2px solid #bbb;
+}

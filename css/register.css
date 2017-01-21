@@ -1,0 +1,18 @@
+.left-profile{
+	margin-left:15%;
+}
+.profile-image{
+	height: 50%;
+	width: 50%;
+}
+.skills{
+	margin-left: 15%;
+}
+.header{
+	text-align: center;
+	color: #00851f;
+}
+body{
+	 background-color: #e8ebef;
+	 padding-top: 70px;
+}

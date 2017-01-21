@@ -1,0 +1,14 @@
+.page-header, label{
+	color: #00851f;
+}
+.btn-default{
+	margin-top: 2%;
+	width: 100%;
+}
+.textarea{
+	resize: none;
+}
+.btn-default :hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
